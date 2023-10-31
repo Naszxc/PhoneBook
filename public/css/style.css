@@ -1,0 +1,142 @@
+.delete{
+    background-color: rgb(233, 52, 69);
+    height: 45px;
+    width: 45px; 
+    border: none; 
+    outline: none; 
+    border-radius: 20px; 
+    align-self: center; 
+    bottom: -17px;
+    transition: all ease-in .1s;
+}
+
+.delete span{
+    display: none;
+    right: -15px;
+    font-size: 12px;
+}
+
+.delete:hover{
+    background-color: rgb(233, 52, 69);
+    height: 45px;
+    width: 65px; 
+    border: none; 
+    outline: none; 
+    border-radius: 20px; 
+    align-self: center; 
+    bottom: -17px;
+    transition: all ease-in .1s;
+}
+
+.delete:hover span{
+    display: block;
+    right: 0;
+}
+
+.edit{
+    background-color: rgb(4, 149, 163);
+    height: 45px;
+    width: 45px; 
+    border: none; 
+    outline: none; 
+    border-radius: 20px; 
+    align-self: center; 
+    bottom: -17px;
+    transition: all ease-in .1s;
+}
+
+.edit span{
+    display: none;
+    right: -15px;
+    font-size: 12px;
+}
+
+.edit:hover{
+    background-color: rgb(4, 149, 163);
+    height: 45px;
+    width: 65px; 
+    border: none; 
+    outline: none; 
+    border-radius: 20px; 
+    align-self: center; 
+    bottom: -17px;
+    transition: all ease-in .1s;
+}
+
+.edit:hover span{
+    display: block;
+    right: 0;
+}
+
+.save-btn{
+    background-color: rgb(46, 193, 143);
+    position: absolute; 
+    height: 45px;
+    width: 45px; 
+    border: none; 
+    outline: none; 
+    border-radius: 20px; 
+    align-self: center; 
+    bottom: -17px;
+    transition: all ease-in .2s;
+}
+
+.save-btn:hover{
+    background-color: rgba(46, 193, 143, .9);
+    position: absolute; 
+    height: 45px;
+    width: 65px; 
+    border: none; 
+    outline: none; 
+    border-radius: 20px; 
+    align-self: center; 
+    bottom: -17px;
+    transition: all ease-in .2s;
+}
+
+.save-btn i{
+    color: white; 
+    font-size: 25px;
+}
+
+.save-btn-parent{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.card-header{
+    background-color: rgb(52,58,65);
+    color: white;
+}
+
+#error_mess{
+    display: block; 
+    width: 100%; 
+    color: red; 
+    font-size: 13px;
+}
+
+.input_number{
+    display: block; 
+    border: none; 
+    outline: none;
+}
+
+.input{
+    display: block; 
+    width: 100%; 
+    margin-top: 10px; 
+    border-bottom: 1px solid black; 
+    border-top: none; 
+    border-right: none; 
+    border-left: none; 
+    outline: none;
+}
+
+td{
+    width: 100%;
+}
+
+
